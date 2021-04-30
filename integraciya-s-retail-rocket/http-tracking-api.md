@@ -35,9 +35,19 @@ description: >-
 ## Методы учета поведения пользователя
 
 {% api-method method="post" host="https://apptracking.retailrocket.net" path="/1.0/view" %}
-{% api-method-summary %}
-view
-{% endapi-method-summary %}
+    {% api-method-summary %}
+        view-sample
+    {% endapi-method-summary %}
+{% end-api-method method="post" %}
+
+
+{% api-method method="post" host="https://apptracking.retailrocket.net" path="/1.0/view" %}
+# 
+
+
+
+
+
 
 {% api-method-description %}
 Должен быть вызван при каждом просмотре карточки товара пользователем.
