@@ -16,7 +16,7 @@ description: >-
 Для этого API соблюдаются [общие принципы интеграционных API](obshie-principy-integracii-s-retail-rocket.md).
 
 {% hint style="info" %}
-Более подробнее про параметры методов можно прочитать по их ссылкам:
+Более подробнее про общие параметры методов можно прочитать по их ссылкам:
 
 * [Ключ авторизации](obshie-principy-integracii-s-retail-rocket.md#avtorizaciya) \(`apiKey`\)
 * [Идентификатор интернет магазина](obshie-principy-integracii-s-retail-rocket.md#upravlenie-sessiei) \(`sessionExternalId`\)
@@ -57,7 +57,7 @@ view
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="sessionExternalId" type="string" required=true %}
-Строковый идентификатор пользователя
+Строковый идентификатор пользователя [`https://apptracking.retailrocket.net/1.0/`](https://apptracking.retailrocket.net/1.0/)
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="productId" required=true type="integer" %}
