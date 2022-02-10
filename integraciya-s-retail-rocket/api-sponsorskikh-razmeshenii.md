@@ -308,7 +308,7 @@ curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/
 | Имя поля      | Обязательное | Тип                     | Описание                                                 |
 | ------------- | ------------ | ----------------------- | -------------------------------------------------------- |
 | `id`          | Да           | string                  | Идентификатор запрошенного показа                        |
-| `contentType` | Нет          | string                  | Тип содержимого. Всегда равен `string`                   |
+| `contentType` | Да           | string                  | Тип содержимого. Всегда равен `string`                   |
 | `content`     | Да           | StringImpressionContent | [Содержимое для показа](api-sponsorskikh-razmeshenii.md) |
 
 ### StringImpressionContent
@@ -340,7 +340,7 @@ curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/
 | Имя поля      | Обязательное | Тип                         | Описание                                                 |
 | ------------- | ------------ | --------------------------- | -------------------------------------------------------- |
 | `id`          | Да           | string                      | Идентификатор запрошенного показа                        |
-| `contentType` | Нет          | string                      | Тип содержимого. Всегда равен `productIds`               |
+| `contentType` | Да           | string                      | Тип содержимого. Всегда равен `productIds`               |
 | `content`     | Да           | ProductIdsImpressionContent | [Содержимое для показа](api-sponsorskikh-razmeshenii.md) |
 
 ### ProductIdsImpressionContent
@@ -372,7 +372,7 @@ Cодержимое для показа товарной полки
 | Имя поля      | Обязательное | Тип                      | Описание                                                 |
 | ------------- | ------------ | ------------------------ | -------------------------------------------------------- |
 | `id`          | Да           | string                   | Идентификатор запрошенного показа                        |
-| `contentType` | Нет          | string                   | Тип содержимого. Всегда равен `banners`                  |
+| `contentType` | Да           | string                   | Тип содержимого. Всегда равен `banners`                  |
 | `content`     | Да           | BannersImpressionContent | [Содержимое для показа](api-sponsorskikh-razmeshenii.md) |
 
 ### BannersImpressionContent
@@ -424,7 +424,7 @@ Cодержимое для показа баннеров
 | Имя поля      | Обязательное | Тип                           | Описание                                                 |
 | ------------- | ------------ | ----------------------------- | -------------------------------------------------------- |
 | `id`          | Да           | string                        | Идентификатор запрошенного показа                        |
-| `contentType` | Нет          | string                        | Тип содержимого. Всегда равен `sharedBanners`            |
+| `contentType` | Да           | string                        | Тип содержимого. Всегда равен `sharedBanners`            |
 | `content`     | Да           | BannerImpressionContent array | [Содержимое для показа](api-sponsorskikh-razmeshenii.md) |
 
 ### BannerImpressionContent
