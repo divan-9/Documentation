@@ -26,7 +26,7 @@ API получения товарных рекомендаций **** приде
 
 ### **Base URL**
 
-`https://externalapi.retailrocket.net/api/3.0/`
+`https://externalapi.retailrocket.ru/api/3.0/`
 
 ### HTTP-метод доступа
 
@@ -113,7 +113,7 @@ API получения товарных рекомендаций **** приде
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/partnerRecommendations/popular/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017'
+curl 'https://externalapi.retailrocket.ru/api/3.0/partnerRecommendations/popular/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017'
 ```
 
 ### **Популярные товары для экрана** товарной категории
@@ -149,7 +149,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/partnerRecommendations/popula
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/popular/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&categoryIds=123,234,254'
+curl 'https://externalapi.retailrocket.ru/api/3.0/categoryRecommendations/popular/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&categoryIds=123,234,254'
 ```
 
 #### При интеграции через Product API
@@ -173,7 +173,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/popul
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/popularByCategoryPath/?sessionExternalId=73018148&categoryPaths=katinwinkel&categoryPaths=accu-gereedschap%2Faccu&apiKey=5b333f5697a528b0184b6017&partnerId=59908d02c7d013ce40de715a&session=5bb7b6201323790001561024'
+curl 'https://externalapi.retailrocket.ru/api/3.0/categoryRecommendations/popularByCategoryPath/?sessionExternalId=73018148&categoryPaths=katinwinkel&categoryPaths=accu-gereedschap%2Faccu&apiKey=5b333f5697a528b0184b6017&partnerId=59908d02c7d013ce40de715a&session=5bb7b6201323790001561024'
 ```
 
 ### **Популярные товары со скидкой для экрана** товарной категории
@@ -209,7 +209,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/popul
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/saleByPopular/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&categoryIds=123,234,254'
+curl 'https://externalapi.retailrocket.ru/api/3.0/categoryRecommendations/saleByPopular/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&categoryIds=123,234,254'
 ```
 
 #### При интеграции через Product API
@@ -233,7 +233,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/saleB
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/saleByPopularByCategoryPath/?sessionExternalId=73018148&categoryPaths=katinwinkel&categoryPaths=accu-gereedschap%2Faccu&apiKey=5b333f5697a528b0184b6017&partnerId=59908d02c7d013ce40de715a&session=5bb7b6201323790001561024'
+curl 'https://externalapi.retailrocket.ru/api/3.0/categoryRecommendations/saleByPopularByCategoryPath/?sessionExternalId=73018148&categoryPaths=katinwinkel&categoryPaths=accu-gereedschap%2Faccu&apiKey=5b333f5697a528b0184b6017&partnerId=59908d02c7d013ce40de715a&session=5bb7b6201323790001561024'
 ```
 
 ### **Поисковые рекомендации**
@@ -259,7 +259,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/saleB
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/searchRecommendations/search/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&searchPhrase=skirts'
+curl 'https://externalapi.retailrocket.ru/api/3.0/searchRecommendations/search/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&searchPhrase=skirts'
 ```
 
 ### **Похожие товары**
@@ -283,7 +283,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/searchRecommendations/search/
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/productRecommendations/alternatives/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&productIds=93845,93846,93847'
+curl 'https://externalapi.retailrocket.ru/api/3.0/productRecommendations/alternatives/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&productIds=93845,93846,93847'
 ```
 
 ### **Сопутствующие товары**
@@ -307,7 +307,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/productRecommendations/altern
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/productRecommendations/relatedByInterestedProperties/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&productIds=93845,93846,93847'
+curl 'https://externalapi.retailrocket.ru/api/3.0/productRecommendations/relatedByInterestedProperties/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&productIds=93845,93846,93847'
 ```
 
 ### **Сопутствующие товары, персонализированные с учетом интереса пользователя к свойствам товара**
@@ -331,7 +331,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/productRecommendations/relate
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/productRecommendations/relatedByInterestedProperties/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&productIds=93845,93846,93847'
+curl 'https://externalapi.retailrocket.ru/api/3.0/productRecommendations/relatedByInterestedProperties/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&productIds=93845,93846,93847'
 ```
 
 ### **Персональные рекомендации**
@@ -354,7 +354,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/productRecommendations/relate
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/partnerRecommendations/personalComposite/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017'
+curl 'https://externalapi.retailrocket.ru/api/3.0/partnerRecommendations/personalComposite/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017'
 ```
 
 ### **Ранее купленные пользователем товары**
@@ -377,7 +377,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/partnerRecommendations/person
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/partnerRecommendations/personalOrdered/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017''
+curl 'https://externalapi.retailrocket.ru/api/3.0/partnerRecommendations/personalOrdered/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017''
 ```
 
 ### **Аксессуары**
@@ -401,7 +401,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/partnerRecommendations/person
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/productRecommendations/accessories/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&productIds=93845,93846,93847'
+curl 'https://externalapi.retailrocket.ru/api/3.0/productRecommendations/accessories/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&productIds=93845,93846,93847'
 ```
 
 ### Популярные товары к интересующим пользователя категориям
@@ -424,7 +424,7 @@ Retail Rocket в реальном времени анализирует инте
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/partnerRecommendations/popularInInterestedCategories/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017'
+curl 'https://externalapi.retailrocket.ru/api/3.0/partnerRecommendations/popularInInterestedCategories/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017'
 ```
 
 ### Просмотренные товары
@@ -447,7 +447,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/partnerRecommendations/popula
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/partnerRecommendations/personalViewed/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017'
+curl 'https://externalapi.retailrocket.ru/api/3.0/partnerRecommendations/personalViewed/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017'
 ```
 
 ### Сопутствующие товары из категорий, отличных от категории текущего товара
@@ -471,7 +471,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/partnerRecommendations/person
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/productRecommendations/relatedWithoutCurrentCategory/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&productIds=1254,2345,5484'
+curl 'https://externalapi.retailrocket.ru/api/3.0/productRecommendations/relatedWithoutCurrentCategory/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&productIds=1254,2345,5484'
 ```
 
 ### Сопутствующие товары с учетом бизнес-правил
@@ -498,7 +498,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/productRecommendations/relate
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/productRecommendations/relatedWithRules/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&productIds=1254,2345,5484'
+curl 'https://externalapi.retailrocket.ru/api/3.0/productRecommendations/relatedWithRules/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&productIds=1254,2345,5484'
 ```
 
 ### Новинки в категории
@@ -534,7 +534,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/productRecommendations/relate
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/latest/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&categoryIds=1254,2345,5484'
+curl 'https://externalapi.retailrocket.ru/api/3.0/categoryRecommendations/latest/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&categoryIds=1254,2345,5484'
 ```
 
 #### При интеграции через Product API
@@ -558,7 +558,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/lates
 #### Пример вызова
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/latestByCategoryPath/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&categoryPaths=accu-gereedschap%2Faccu'
+curl 'https://externalapi.retailrocket.ru/api/3.0/categoryRecommendations/latestByCategoryPath/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&categoryPaths=accu-gereedschap%2Faccu'
 ```
 
 ### Новинки со скидками
@@ -594,7 +594,7 @@ curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/lates
 **Пример вызова**
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/saleByLatest/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&categoryIds=1254,2345,5484'
+curl 'https://externalapi.retailrocket.ru/api/3.0/categoryRecommendations/saleByLatest/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&categoryIds=1254,2345,5484'
 ```
 
 **При интеграции через Product API**
@@ -618,5 +618,5 @@ curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/saleB
 **Пример вызова**
 
 ```bash
-curl 'https://externalapi.retailrocket.net/api/3.0/categoryRecommendations/saleByLatestByCategoryPath/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&categoryPaths=accu-gereedschap%2Faccu'
+curl 'https://externalapi.retailrocket.ru/api/3.0/categoryRecommendations/saleByLatestByCategoryPath/?sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&stockId=moscow&partnerId=69908d02c7d513ce40de715a&apiKey=5b333f5297a528b0184b6017&categoryPaths=accu-gereedschap%2Faccu'
 ```

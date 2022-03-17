@@ -55,7 +55,7 @@
 
 ## Base URL <a href="#acceptcontent" id="acceptcontent"></a>
 
-`https://visitors-sp.retailrocket.net/v1/`
+`https://visitors-sp.retailrocket.ru/v1/`
 
 ## Resources
 
@@ -93,7 +93,7 @@
 #### Пример вызова
 
 ```bash
-curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/productPlacements/a2837ec9-b000-46d7-9272-f64df080da51/impressions?apiKey=608423a104249fa8e9952323&sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&acceptContent=productIds,string&productId=93845&stockId=berlin13'
+curl 'https://visitors-sp.retailrocket.ru/v1/partners/608423a9b126ac6ab3f8f0a5/productPlacements/a2837ec9-b000-46d7-9272-f64df080da51/impressions?apiKey=608423a104249fa8e9952323&sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&acceptContent=productIds,string&productId=93845&stockId=berlin13'
 ```
 
 ### Спонсорский контент для страниц групповых товаров
@@ -130,7 +130,7 @@ curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/
 #### Пример вызова
 
 ```bash
-curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/productGroupPlacements/545f2f85-dcbe-4d2d-8260-6ecdf6c8c415/impressions?apiKey=608423a104249fa8e9952323&sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&acceptContent=productIds,string&productIds=93845,93846,93847&stockId=berlin13'
+curl 'https://visitors-sp.retailrocket.ru/v1/partners/608423a9b126ac6ab3f8f0a5/productGroupPlacements/545f2f85-dcbe-4d2d-8260-6ecdf6c8c415/impressions?apiKey=608423a104249fa8e9952323&sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&acceptContent=productIds,string&productIds=93845,93846,93847&stockId=berlin13'
 ```
 
 ### Спонсорский контент для страниц товарных категорий
@@ -179,7 +179,7 @@ curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/
 #### Пример вызова
 
 ```bash
-curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/categoryPlacements/b17d8910-d0c5-4fd7-97d0-66b314f797f2/impressions?apiKey=608423a104249fa8e9952323&sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&acceptContent=productIds,string&categoryId=65'
+curl 'https://visitors-sp.retailrocket.ru/v1/partners/608423a9b126ac6ab3f8f0a5/categoryPlacements/b17d8910-d0c5-4fd7-97d0-66b314f797f2/impressions?apiKey=608423a104249fa8e9952323&sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&acceptContent=productIds,string&categoryId=65'
 ```
 
 #### При интеграции через Product API
@@ -218,7 +218,7 @@ curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/
 #### Пример вызова
 
 ```bash
-curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/categoryPlacements/b17d8910-d0c5-4fd7-97d0-66b314f797f2/impressions?apiKey=608423a104249fa8e9952323&sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&acceptContent=productIds,string&categoryPath=Electronics%2FTV'
+curl 'https://visitors-sp.retailrocket.ru/v1/partners/608423a9b126ac6ab3f8f0a5/categoryPlacements/b17d8910-d0c5-4fd7-97d0-66b314f797f2/impressions?apiKey=608423a104249fa8e9952323&sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&acceptContent=productIds,string&categoryPath=Electronics%2FTV'
 ```
 
 ### Спонсорский контент для страницы поиска
@@ -253,7 +253,7 @@ curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/
 * [Impression](api-sponsorskikh-razmeshenii.md#impression)
 
 ```bash
-curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/searchPlacements/d34fa7a5-26fe-4cd4-af3f-a52362d90c80/impressions?apiKey=608423a104249fa8e9952323&sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&acceptContent=productIds,string&searchQuery=Red%20Apples'
+curl 'https://visitors-sp.retailrocket.ru/v1/partners/608423a9b126ac6ab3f8f0a5/searchPlacements/d34fa7a5-26fe-4cd4-af3f-a52362d90c80/impressions?apiKey=608423a104249fa8e9952323&sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&acceptContent=productIds,string&searchQuery=Red%20Apples'
 ```
 
 ### Спонсорский контент для прочих страниц
@@ -289,7 +289,7 @@ curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/
 #### Пример вызова
 
 ```bash
-curl 'https://visitors-sp.retailrocket.net/v1/partners/608423a9b126ac6ab3f8f0a5/anyPlacements/2e1f1f39-bad1-46a4-9488-c075dd95dc9b/impressions?apiKey=608423a104249fa8e9952323&sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&acceptContent=productIds,string'
+curl 'https://visitors-sp.retailrocket.ru/v1/partners/608423a9b126ac6ab3f8f0a5/anyPlacements/2e1f1f39-bad1-46a4-9488-c075dd95dc9b/impressions?apiKey=608423a104249fa8e9952323&sessionExternalId=3beb9714-82e9-4c08-938d-1391f5d86f2b&acceptContent=productIds,string'
 ```
 
 ## Responses

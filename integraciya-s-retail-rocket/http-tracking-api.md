@@ -8,7 +8,7 @@
 
 ## **Base URL**
 
-`https://apptracking.retailrocket.net/1.0/`
+`https://apptracking.retailrocket.ru/1.0/`
 
 ## Resources
 
@@ -52,7 +52,7 @@
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/view?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/view?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -103,7 +103,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/groupView?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/groupView?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -154,7 +154,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/addToBasket?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/addToBasket?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -215,7 +215,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/categoryView?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/categoryView?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -263,7 +263,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/categoryViewByCategoryPath?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/categoryViewByCategoryPath?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -315,13 +315,13 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/order?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/order?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
          \"sessionExternalId\": \"60842392e4881c65e6c5e423\",
          \"productId\": 123456,
-         \"stockId\": \"NewYork\",
+         \"stockId\": \"Moscow\",
          \"quantity\": 2,
          \"price\": 234,
          \"transaction\": \"135243\",
@@ -368,7 +368,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/search?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/search?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -432,7 +432,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/setContact?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/setContact?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -488,7 +488,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/welcomeSequence?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/welcomeSequence?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -539,7 +539,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/emailClick?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/emailClick?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -593,7 +593,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/recomBlockViewed?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/recomBlockViewed?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -641,7 +641,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/recomTap?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/recomTap?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -691,7 +691,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/recomAddToBasket?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/recomAddToBasket?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -743,7 +743,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/impressionContentViewed?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/impressionContentViewed?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -791,7 +791,7 @@ curl \
 
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/impressionContentClicked?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/impressionContentClicked?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
       {
@@ -927,7 +927,7 @@ API предоставляет возможность пакетной загр�
 {% tab title="Bash" %}
 ```bash
 curl \
-   -X POST "https://apptracking.retailrocket.net/1.0/visitorEvents?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
+   -X POST "https://apptracking.retailrocket.ru/1.0/visitorEvents?apiKey=608423a104249fa8e9952323&partnerId=608423a9b126ac6ab3f8f0a5" \
    -H "Content-type: application/json" \
    --data "
     [
